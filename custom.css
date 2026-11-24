@@ -199,11 +199,20 @@ body:not(.k-reflow) .k-scene-img{top:200px;height:780px}
 .k-finale-cards .k-card{padding:16px 22px}
 .k-finale-cards .k-card h3{font-size:29px;margin-bottom:4px}
 .k-finale-cards .k-card p{font-size:24px;line-height:1.42}
-.k-finale-img{width:100%;max-height:360px;object-fit:contain}
-.k-speaker-qr{border-radius:18px;padding:18px 22px;background:var(--navy-wash);border:2px solid var(--navy);display:grid;grid-template-columns:1fr 146px;gap:16px;align-items:center}
+.k-finale-img{width:100%;max-height:310px;object-fit:contain}
+.k-speaker-qr{border-radius:18px;padding:18px 20px;background:var(--navy-wash);border:2px solid var(--navy);display:grid;grid-template-columns:1fr 220px;gap:16px;align-items:center}
 .k-speaker-qr h3{margin:0 0 6px;font-size:26px;font-weight:900;color:var(--navy)}
-.k-speaker-qr p{margin:0;font-size:21px;line-height:1.45;color:var(--ink)}
-.k-qr-slot{width:146px;height:146px;border-radius:12px;border:3px dashed var(--navy);background:#FFFFFF;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:8px;font-size:16px;font-weight:700;color:var(--navy);line-height:1.35}
+.k-speaker-qr p{margin:0;font-size:20px;line-height:1.42;color:var(--ink)}
+.k-qr-box{display:flex;flex-direction:column;align-items:center;gap:4px;background:#FFFFFF;padding:8px;border-radius:12px;border:2px solid var(--navy)}
+.k-qr-img{width:200px;height:200px;display:block;image-rendering:pixelated}
+.k-qr-box span{font-size:15px;font-weight:800;color:var(--navy)}
+
+/* #k-end QR share panel */
+.k-end-share{display:flex;align-items:center;gap:20px;justify-content:center;margin:14px auto 18px;padding:14px 20px;border-radius:14px;background:#F4F7FA;border:2px solid #D5DEE8;text-align:left;max-width:560px}
+.k-end-qr{width:160px;height:160px;flex:0 0 auto;border-radius:8px;background:#FFFFFF;padding:4px;image-rendering:pixelated}
+.k-end-meta strong{display:block;font-size:22px;color:#1E2833;margin-bottom:4px}
+.k-end-meta p{margin:0;font-size:18px;color:#3B4754;line-height:1.45}
+.k-end-url{margin-top:6px!important;font-size:14px!important;color:#5F6B77!important;word-break:break-all}
 
 /* ==========================================================================
    Mobile & Tablet Reflow Rules (body.k-reflow) - MANDATORY
