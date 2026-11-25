@@ -16,6 +16,8 @@
 .k-flip{padding:32px 28px;min-height:440px}
 .k-flip .k-q{font-size:34px}
 .k-flip .k-a{font-size:28px;line-height:1.5}
+.k-flip-hint{display:inline-block;align-self:flex-start;margin-top:10px;padding:5px 14px;border-radius:999px;background:var(--navy-wash);color:var(--navy);font-size:20px;font-weight:800}
+.k-flip.shown .k-flip-hint{display:none}
 .k-evi p{font-size:28px;line-height:1.48}
 
 /* Keep top-right chapter pills crisp single-line */
